@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#parent1
+{
+    height: 750px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    /*background: rgb(242, 181, 39);*/
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/04/wood-1853403__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#a1
+{
+    height: 100px;
+    width: 100%;
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+#a2
+{
+    height: 650px;
+    width: 100%;
+    /*border: 2px solid red;*/
+    display: flex;
+}
+#child1
+{
+    height: 100px;
+    width: 300px;
+    /*border: 2px solid red;*/
+}
+#child2
+{
+    height: 100px;
+    width: 500px;
+    /*border: 2px solid green;*/
+}
+#child3
+{
+    height: 650px;
+    width: 40%;
+    /*border: 2px solid yellow;*/
+}
+#child4
+{
+    height: 650px;
+    width: 60%;
+    /*border: 2px solid grey;*/
+    /*background: url(https://cdn.pixabay.com/photo/2014/11/28/08/26/hamburger-548615__340.jpg);*/
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#head1
+{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+#navmenu
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+#navmenu li a
+{
+    text-decoration: none;
+    color: black;
+}
+#navmenu li a:hover
+{
+    color: rgb(242, 181, 39);
+
+}
+#para1
+{
+    padding-left: 270px;
+}
+#para2
+{
+    padding-left: 30px;
+    padding-top: 200px;
+    font-size: 20px;
+}
+#head2
+{
+    padding-left: 30px;
+    font-size: 100px;
+    text-shadow: 4px 4px 2px rgb(242, 181, 39);
+}
+#head3
+{
+    padding-left: 30px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(242, 181, 39);
+}
+#parent2
+{
+    height: 700px;
+    width: 100%;
+    /*border: 2px solid red;*/
+}
+#a3
+{
+    height: 500px;
+    width: 100%;
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+#a4
+{
+    height: 200px;
+    width: 100%;
+    /*border: 2px solid violet;*/
+}
+#child5
+{
+    height: 465px;
+    width: 45%;
+    /*border: 2px solid blueviolet;*/
+    background-image: url(https://media.istockphoto.com/id/1337481060/photo/burgers-on-the-wooden-board.jpg?b=1&s=170667a&w=0&k=20&c=oM3PhH974nAyS-7FD5igGfqVHEjDY2Q0vUk9jHOfBI4=);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child6
+{
+    height: 465px;
+    width: 45%;
+    /*border: 2px solid blue;*/
+}
+#son1
+{
+    height: 45%;
+    width: 670px;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/07/13/54/burger-1502452__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#son2
+{
+    height: 45%;
+    width: 670px;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/25/07/20/food-3348861__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#b1
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: rgb(242, 181, 39);
+}
+#head3
+{
+    font-size: 30px;
+}
+#para3
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#parent3
+{
+    height: 700px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+#a5
+{
+    height: 600px;
+    width: 400px;
+    /*border: 2px solid green;*/
+}
+#a6
+{
+    height: 600px;
+    width: 400px;
+    /*border: 2px solid black;*/
+}
+#a7
+{
+    height: 600px;
+    width: 400px;
+    /*border: 2px solid yellow;*/
+}
+#child7
+{
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/31/10/16/hamburger-7422961__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child8
+{
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/31/10/15/burger-7422959__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child9
+{
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/19/08/46/sandwich-5930489__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#b2
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+#b3
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+#b4
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+#parent4
+{
+    height: 600px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding-left: 150px;
+    padding-top: 50px;
+    
+}
+#a8
+{
+    height: 500px;
+    width: 1200px;
+    /*border: 2px solid black;*/
+    display: flex;
+    box-shadow: 10px 10px 50px 10px black;
+}
+#child10
+{
+    height: 500px;
+    width: 50%;
+    /*border: 2px solid black;*/
+    padding-left: 60px;
+    padding-top: 60px;
+}
+#child11
+{
+    height: 500px;
+    width: 50%;
+    /*border: 2px solid black;*/
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/26/01/39/hamburger-7877317__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#head5
+{
+    font-size: 30px;
+}
+#head6
+{
+    font-size: 50px;
+}
+#para4
+{
+    font-size: 30px;
+}
+#parent5
+{
+    height: 600px;
+    width: 100%;
+    /*border: 2px solid black;*/
+}
+#a9
+{
+    height: 100px;
+    width: 100%;
+    /*border: 2px solid black;*/
+}
+#a10
+{
+    height: 500px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding-left: 250px;
+    padding-top: 50px;
+}
+#child12
+{
+    height: 400px;
+    width: 1000px;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#head7
+{
+    font-size: 40px;
+}
+#son3
+{
+    height: 300px;
+    width: 400px;
+    /*border: 2px solid black;*/
+    padding-left: 100px;
+    padding-top: 40px;
+}
+#son4
+{
+    height: 300px;
+    width: 400px;
+    /*border: 2px solid black;*/
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.t1
+{
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.t2
+{
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#t3
+{
+    padding: 20px;
+    width: 270px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+}
+#parent6
+{
+    height: 600px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding-left: 55px;
+    padding-top: 50px;
+}
+#a11
+{
+    height: 500px;
+    width: 1400px;
+    /*border: 2px solid red;*/
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/21/12/53/the-burger-5200637__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child13
+{
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+}
+#child14
+{
+    height: 100px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+}
+#son5
+{
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding-left: 70px;
+    padding-top: 90px;
+    padding-right: 300px;
+}
+#son6
+{
+    height: 400px;
+    width: 600px;
+    /*border: 2px solid red;*/
+    padding-top: 200px;
+    color: white;
+}
+#son7
+{
+    height: 100px;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding-left: 30px;
+    padding-top: 40px;
+    color: white;
+}
+#son8
+{
+    height: 100px;
+    width: 600px;
+    /*border: 2px solid black;*/
+    padding-left: 400px;
+    padding-top: 60px;
+}
+#head8
+{
+    font-size: 40px;
+    color: white;
+}
+#para5
+{
+    font-size: 20px;
+    color: white;
+}
+#head9
+{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#head10
+{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.head11
+{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.head12
+{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
